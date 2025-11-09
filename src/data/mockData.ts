@@ -39,13 +39,13 @@ export interface ROIData {
 }
 
 export const collaborationNodes: CollaborationNode[] = [
-  { id: "alice", name: "Toshik Sharma", team: "Engineering", role: "Senior Developer", collaborationScore: 85, centrality: 0.8 },
-  { id: "bob", name: "Kashish gupta", team: "Engineering", role: "Tech Lead", collaborationScore: 92, centrality: 0.9 },
+  { id: "alice", name: "Kashish gupta", team: "Engineering", role: "Senior Developer", collaborationScore: 85, centrality: 0.8 },
+  { id: "bob", name: "Toshik Sharma", team: "Engineering", role: "Tech Lead", collaborationScore: 92, centrality: 0.9 },
   { id: "carol", name: "Harsimran Kaur bedi", team: "Product", role: "Product Manager", collaborationScore: 78, centrality: 0.7 },
-  { id: "david", name: "Nitakshi Azad", team: "Design", role: "UX Designer", collaborationScore: 71, centrality: 0.6 },
-  { id: "eve", name: "Yash Narayan", team: "Engineering", role: "Developer", collaborationScore: 66, centrality: 0.5 },
-  { id: "frank", name: "Usha patel", team: "QA", role: "QA Engineer", collaborationScore: 73, centrality: 0.65 },
-  { id: "grace", name: "Vasu ", team: "Product", role: "Product Owner", collaborationScore: 81, centrality: 0.75 },
+  { id: "david", name: "Vasu", team: "Design", role: "UX Designer", collaborationScore: 71, centrality: 0.6 },
+  { id: "eve", name: "Usha Patel", team: "Engineering", role: "Developer", collaborationScore: 66, centrality: 0.5 },
+  { id: "frank", name: "Yash Narayan", team: "QA", role: "QA Engineer", collaborationScore: 73, centrality: 0.65 },
+  { id: "grace", name: "Nitakshi Azad", team: "Product", role: "Product Owner", collaborationScore: 81, centrality: 0.75 },
   { id: "henry", name: "zeenat", team: "Engineering", role: "DevOps", collaborationScore: 69, centrality: 0.55 },
 ];
 
