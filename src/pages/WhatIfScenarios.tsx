@@ -200,8 +200,8 @@ export default function WhatIfScenarios() {
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={scenarioData} layout="horizontal">
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+              <BarChart data={scenarioData} layout="vertical">
+                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--primary))" />
                 <XAxis type="number" stroke="hsl(var(--muted-foreground))" />
                 <YAxis 
                   dataKey="metric" 
@@ -213,13 +213,13 @@ export default function WhatIfScenarios() {
                 <Tooltip 
                   contentStyle={{
                     backgroundColor: "hsl(var(--card))",
-                    border: "1px solid hsl(var(--border))",
+                    border: "1px solid hsl(var(--primary))",
                     borderRadius: "6px"
                   }}
                 />
                 <Bar 
                   dataKey="base" 
-                  fill="hsl(var(--muted))"
+                  fill="hsl(var(--primary))"
                   name="Baseline"
                   radius={[0, 4, 4, 0]}
                 />
